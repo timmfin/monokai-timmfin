@@ -380,12 +380,12 @@
             </dict>
         </dict>
 
-        <!-- SublimeLint theming -->
+        <!-- SublimeLinter theming -->
         <dict>
             <key>name</key>
-            <string>Sublimelint Annotations</string>
+            <string>SublimeLinter Annotations</string>
             <key>scope</key>
-            <string>sublimelint.notes</string>
+            <string>sublimelinter.notes</string>
             <key>settings</key>
             <dict>
                 <key>background</key>
@@ -396,9 +396,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Sublimelint Outline</string>
+            <string>SublimeLinter Error Outline</string>
             <key>scope</key>
-            <string>sublimelint.illegal</string>
+            <string>sublimelinter.outline.illegal</string>
             <key>settings</key>
             <dict>
                 <key>background</key>
@@ -409,9 +409,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Sublimelint Underline</string>
+            <string>SublimeLinter Error Underline</string>
             <key>scope</key>
-            <string>invalid.illegal</string>
+            <string>sublimelinter.underline.illegal</string>
             <key>settings</key>
             <dict>
                 <key>background</key>
@@ -420,26 +420,22 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Sublimelint Warning Outline</string>
+            <string>SublimeLinter Warning Outline</string>
             <key>scope</key>
-            <string>sublimelint.warning</string>
+            <string>sublimelinter.outline.warning</string>
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <!-- <string>#DF9400</string> orange -->
-
-                <!-- faded orange -->
-                <string>#835e11</string> 
-                
+                <string>#835e11</string>
                 <key>foreground</key>
                 <string>#FFFFFF</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
-            <string>Sublimelint Warning Underline</string>
+            <string>SublimeLinter Warning Underline</string>
             <key>scope</key>
-            <string>invalid.warning</string>
+            <string>sublimelinter.underline.warning</string>
             <key>settings</key>
             <dict>
                 <key>background</key>
@@ -448,9 +444,9 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Sublimelint Violation Outline</string>
+            <string>SublimeLinter Violation Outline</string>
             <key>scope</key>
-            <string>sublimelint.violation</string>
+            <string>sublimelinter.outline.violation</string>
             <key>settings</key>
             <dict>
                 <key>background</key>
@@ -461,18 +457,15 @@
         </dict>
         <dict>
             <key>name</key>
-            <string>Sublimelint Violation Underline</string>
+            <string>SublimeLinter Violation Underline</string>
             <key>scope</key>
-            <string>invalid.violation</string>
+            <string>sublimelinter.underline.violation</string>
             <key>settings</key>
             <dict>
                 <key>background</key>
                 <string>#FF0000</string>
             </dict>
         </dict>
-        
- 
-
 
         <!-- Custom markdown coloring -->
         <dict>
